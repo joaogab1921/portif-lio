@@ -26,6 +26,8 @@
 }
 
 svg {
+  width: 180px;
+  height: 60px;
   position: absolute;
   left: 0;
   top: 0;

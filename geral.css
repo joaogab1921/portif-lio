@@ -49,6 +49,7 @@ body{
 }
 .apresentacao-texto p{
     font-size: 30px;
+    text-align: justify;
 }
 .apresentacao-texto span{
     font-size: 30px;
@@ -87,12 +88,89 @@ h1{
     font-size: 20px;
     border-color: aqua;
 }
+/* SEGUNDA PARTE */
+.tecnologia{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 1220px){
     header{
         height: 100px;
+        width: 100%;
         padding: 0;
     }
-    .logo{
-        width: 180px;
+    header ul li a{
+        font-size: 0px;
     }
+    .logo{
+        width: 100px;
+    }
+    .apresentacao{
+        width: 100%;
+        height: 550px;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+        align-items: center;
+    }
+    .apresentacao-texto{
+        height: 600px;
+        width: 300px;
+        margin: 0%;
+    }   
+    #inicio{
+        height: 30px;
+        width: 300px;
+        font-size: 30px;
+    }
+    .apresentacao-texto h2{
+        font-size: 25px;
+    }
+    .apresentacao-texto span{
+        font-size: 13px;
+    }
+    .apresentacao-texto p{
+        font-size: 13px ;
+    }
+              
+    .container{
+        margin-left: 155px !important;
+        width: 80px !important;
+        height: 30px !important;
+        align-items: center !important;
+    }
+    .btn{
+        width: 80px !important;
+        height: 30px !important;
+    }
+    header span{
+        font-size: 15px !important;
+    }
+    .container span{
+        font-size: 15px !important;
+    }
+    svg{
+        width: 80px !important;
+        height: 30px !important;
+    }
+    header .container{
+        margin-left: 0% !important;
+       
+        margin-top: 30px;
+    }
+    .img-apresentacao{
+        width: 200px;
+        height: 200px;
+        margin:0%;
+    }
+    h2{
+        font-size: 25px;
+        text-align: center;
+        width: 200px;
+    }
+    header ul{
+        width: 0px;
+        height: 0px;
+    }
+    
 }
