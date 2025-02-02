@@ -89,9 +89,41 @@ h1{
     border-color: aqua;
 }
 /* SEGUNDA PARTE */
+#tec{
+    text-align: center;
+    color: rgb(68, 91, 112);
+}
 .tecnologia{
     display: flex;
     justify-content: center;
+}
+.img-tec{
+    margin: 12px;
+}
+/* TERCEIRA PARTE */
+#proj{
+    text-align: center;
+    color: rgb(68, 91, 112);
+}
+.projetos-principal{
+    background-color: #051535;
+    width: 100%;
+    height: 1000px ;   
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    margin: 60px;
+    border-color: aqua !important; 
+    background-color: aliceblue;
+    align-items: center;
+}
+.img-proj{
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
 }
 @media screen and (max-width: 1220px){
     header{
