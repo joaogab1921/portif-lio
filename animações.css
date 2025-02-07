@@ -127,3 +127,14 @@ header ul li a:hover{
   transition: 0.2s;
   margin: 0%;
 }
+/* TERCEIRA PARTE */
+.projetos:hover{
+  width:  450px;
+  height: 550px;
+  transition: 2s;
+}
+.projetos:hover .img-proj{
+  width: 450px;
+  transition: 2s ;
+  
+}
