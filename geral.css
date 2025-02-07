@@ -104,8 +104,10 @@ p{
 .tecnologia{
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 .img-tec{
+    width: 200px;
     margin: 12px;
 }
 /* TERCEIRA PARTE */
@@ -161,6 +163,15 @@ p{
 .texto-proj a{
     
     color: aqua;
+}
+.btn-proj{
+    height: 40px;
+    margin-top: 20px;
+    color: aqua;
+    border: 4px solid;
+    border-color: aqua ;
+    background-color: #051535;
+    border-radius: 10px;
 }
 @media screen and (max-width: 1220px){
     header{
@@ -222,10 +233,26 @@ p{
         width: 80px !important;
         height: 30px !important;
     }
-    header .container{
+    .container-hea{
         margin-left: 0% !important;
-       
-        margin-top: 30px;
+        
+    }
+    .center-hea{
+        width: 80px;
+        height: 30px;
+    }
+    .container-hea{
+        margin-left: 155px !important;
+        width: 80px !important;
+        height: 30px !important;
+        align-items: center !important;
+    }
+    .btn-hea{
+        width: 80px !important;
+        height: 30px !important;
+    }
+    .container-hea span{
+        font-size: 15px !important;
     }
     .img-apresentacao{
         width: 200px;

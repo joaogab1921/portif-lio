@@ -115,7 +115,15 @@ svg {
 header ul li a:hover{
     color: rgb(173, 179, 185);
     font-size: 31px;
+    transition: 0.8s;
 }
 .logo:hover{
   filter: drop-shadow(1px 1px 70px aqua);
+  transition: 1.5s;
+}
+/* segunda parte */
+.img-tec:hover{
+  width: 220px;
+  transition: 0.2s;
+  margin: 0%;
 }
