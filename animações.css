@@ -55,63 +55,6 @@ header svg {
 .btn-hea span:hover{
     color:  rgb(68, 91, 112);
 }
-.container {
-  width: 180px;
-  height: 60px;
-  transform: translate(-50%, -50%);
-  margin-left: 300px;
-  margin-top: 50px;
-  box-shadow: 3px 3px 5px rgb(68, 91, 112);
-}
-
-.center {
-  width: 180px;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-}
-
-.btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid aqua;
-  outline: none;
-  transition: 1s ease-in-out;
-  display: inline-block;
-}
-
-svg {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-
-.btn:hover {
-  transition: 1s ease-in-out;
-  background: rgb(68, 91, 112);
-}
-
-.btn:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.btn span {
-  color: aqua;
-  font-size: 18px;
-  font-weight: 100;
-}
-.btn span:hover{
-    color:  rgb(68, 91, 112);
-}
 header ul li a:hover{
     color: rgb(173, 179, 185);
     font-size: 31px;
@@ -136,5 +79,9 @@ header ul li a:hover{
 .projetos:hover .img-proj{
   width: 450px;
   transition: 2s ;
-  
+}
+.btn-proj:hover{
+  background-color: aqua;
+  color: aliceblue;
+  transition: 1s;
 }

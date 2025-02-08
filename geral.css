@@ -6,8 +6,8 @@ header{
     align-items: center;
     justify-content: space-between;
     margin: 0%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 20px;
 
 }
 
@@ -97,14 +97,25 @@ p{
     border-color: aqua;
 }
 /* SEGUNDA PARTE */
+.tec-linha{
+    width: 100%;
+    height: 5px;
+    background-color: aliceblue;
+}
 #tec{
     text-align: center;
-    color: rgb(68, 91, 112);
+    color: aliceblue;
+}
+.tec-principal{
+    background-color: #051535;
+    height: 500px;
+    box-shadow: 5px 5px 40px aliceblue;
 }
 .tecnologia{
     display: flex;
     justify-content: center;
     margin: 30px;
+    margin-bottom: 0px;
 }
 .img-tec{
     width: 200px;
@@ -112,6 +123,11 @@ p{
     transition: 0.2s;
 }
 /* TERCEIRA PARTE */
+.proj-linha{
+    width: 100%;
+    height: 5px;
+    background-color: aqua;
+}
 #proj{
     text-align: center;
     color: rgb(68, 91, 112);
@@ -119,9 +135,10 @@ p{
 .projetos-principal{
     display: flex;
     flex-direction: column;
-    background-color: #051535;
+    background-color: #030d22;
     width: 100%;
     height: 1000px ;   
+    box-shadow: 5px 5px 40px aqua;
 }
 .meus-projetos{
   display: flex;
@@ -176,6 +193,45 @@ p{
     border-color: aqua ;
     background-color: #051535;
     border-radius: 10px;
+    cursor: pointer;
+}
+/* QUARTA PARTE */
+.dev-linha{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(68, 91, 112);
+    
+}
+#sobre{
+    color: rgb(68, 91, 112);
+    margin-top: 0%;
+    margin-left: 160px;
+}
+.dev-principal{
+    box-shadow: 5px 5px 40px rgb(68, 91, 112);
+    background-color:  rgb(173, 179, 185);
+}
+.dev-card{
+    display: flex;
+    padding: 50px;
+}
+.minha-imagem{
+    width: 300px;
+    border-radius: 20%;
+    border: 15px solid;
+    border-color: rgb(68, 91, 112);
+}
+.nome-dev{
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+    color: rgb(68, 91, 112);
+    font-size: 40px;
+}
+.dev-texto p{
+    padding: 100px;
+    padding-top: 0;
+    font-size: 27px;
 }
 @media screen and (max-width: 1220px){
     body{
