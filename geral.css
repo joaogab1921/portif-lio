@@ -72,11 +72,27 @@ h2{
     padding: 100px;
     padding-top: 5px;
 }
-.img-apresentacao{
-    margin-top: 50px;
+.redesocial{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 400px;
     height: 300px;
-    border-radius: 45%;
+}
+.contate-me{
+    cursor: pointer;
+    margin-top: 50px;   
+    width: 300px;
+    color: aqua;
+    background-color: rgb(68, 91, 112);
+    border-color: aqua; 
+    border-radius: 50px;
+    font-size: 30px;
+}
+.redesocial a{
+    width: 0px;
+    margin: 0px;
 }
 h1{
     color: rgb(173, 179, 185);
