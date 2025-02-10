@@ -85,10 +85,11 @@ h2{
     margin-top: 50px;   
     width: 300px;
     color: aqua;
-    background-color: rgb(68, 91, 112);
+    background-color: #031230;
     border-color: aqua; 
     border-radius: 50px;
     font-size: 30px;
+    transition: 2s;
 }
 .redesocial a{
     width: 0px;
@@ -248,6 +249,27 @@ p{
     padding: 100px;
     padding-top: 0;
     font-size: 27px;
+}
+.redesocial2{
+    display: flex;
+}
+.contate-me2{
+    display: flex;
+    background-color: rgb(68, 91, 112);
+    height: 70px;
+    text-align: center;
+    transition: 4s;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.contate-me2 p{
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    font-size: 0px;
+    transition: 4s;
+    background-color: transparent;
 }
 @media screen and (max-width: 1220px){
     body{

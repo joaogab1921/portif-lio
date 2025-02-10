@@ -85,3 +85,22 @@ header ul li a:hover{
   color: aliceblue;
   transition: 1s;
 }
+.contate-me:hover{
+  transition: 2s;
+  background-color: rgb(68, 91, 112);
+  box-shadow: 5px 5px 40px aqua;
+}
+.contate-me2:hover{
+  width: 250px;
+  height: 65px;
+  transition: 2s;
+   background-color: rgb(40, 53, 66);
+   border-radius: 50px;
+}
+.contate-me2:hover p{
+  width: 200px;
+  font-size: 30px;
+  margin: 15px;
+  transition: 2s;
+  background-color: transparent;
+}
