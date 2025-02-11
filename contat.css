@@ -1,0 +1,94 @@
+body{
+    background-image: url(img/form.png);
+}
+.center{
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.principal{
+    border-radius: 40px;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    background-color: rgb(7, 32, 56);
+}
+form{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+}
+input{
+    width: 500px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(68, 91, 112);
+    margin: 20px;
+    height: 20px;
+}
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    color: rgb(68, 91, 112);
+    width: 100px;
+    cursor: pointer;
+    transition: 2s;
+}
+.assunto{
+    padding-bottom: 100px;  
+}
+.lacunas{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-principal p{
+    color: aqua;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.logo{
+    width: 100px;
+    margin-left: 145px;
+    margin-top: 70px;
+    transition: 2s;
+}
+.contato{
+    margin-left: 55px;
+}
+.redesocial{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 2s;
+}
+h1{
+    color: aqua;
+    margin-bottom: 0%;
+}
+p{
+    color: rgb(68, 91, 112);
+    margin-top: 0%;
+}
+/* ANIMAÇÕES */
+.logo:hover{
+   
+    filter: drop-shadow(5px 5px 40px aqua) ;
+    transition: 2s;
+}
+.redesocial:hover{
+    transition: 2s;
+    filter: drop-shadow(5px 5px 40px rgb(68, 91, 112));
+}
+button:hover{
+    box-shadow: 5px 5px 40px aqua;
+    transition: 2s;
+
+}
