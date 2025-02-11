@@ -1,14 +1,14 @@
 @font-face {
-    font-family: dogica;
-    src: url(fonts/depixel/DePixelBreit.ttf);
+    font-family: pixel;
+    src: url(fonts/DePixelBreit.ttf);
 }
 @font-face {
     font-family: desing;
-    src: url(fonts/designer_2/Designer.otf);
+    src: url(fonts/Designer.otf);
 }
 @font-face {
     font-family: cofee;
-    src: url(fonts/kenyan_coffee/Kenyan\ Coffee\ Rg\ It.otf);
+    src: url(fonts/Kenyan\ Coffee\ Rg\ It.otf);
 }
 header{
     background-color: #031230;
@@ -34,7 +34,7 @@ header ul{
     align-items: center;
 }
 header li{
-    font-family: dogica;
+    font-family:  pixel;
     display: inline-block;
     margin-top: 20px;
     margin-left: 30px;
@@ -70,10 +70,9 @@ body{
 .apresentacao-texto p{
     font-size: 30px;
     text-align: justify;
-    font-family: cofee;
 }
 .apresentacao-texto span{
-    font-family: dogica;
+    font-family: pixel;
     font-size: 15px;
     color: aqua;
 }
@@ -82,7 +81,7 @@ body{
 }
 h2{
     font-size: 55px;
-    
+     font-family: cofee;
 }
 .apresentacao{
     display: flex;
@@ -98,7 +97,7 @@ h2{
     height: 300px;
 }
 .contate-me{
-    font-family: dogica;
+    font-family: pixel;
     cursor: pointer;
     margin-top: 50px;   
     width: 300px;
@@ -120,6 +119,7 @@ h1{
     color: rgb(173, 179, 185);
     font-size: 50px;
     margin: 0px;
+    font-family: cofee;
 }
 p{
     color: aliceblue;
@@ -143,7 +143,7 @@ p{
 }
 /* SEGUNDA PARTE */
 #tec{
-    font-family: dogica;
+    font-family: pixel;
     font-size: 40px;
     text-align: center;
     color: aqua;
@@ -171,7 +171,7 @@ p{
 }
 #proj{
     font-size: 40px;
-    font-family: dogica;
+    font-family: pixel;
     text-align: center;
     color: rgb(68, 91, 112);
 }
