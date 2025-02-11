@@ -356,6 +356,9 @@ footer p span{
         margin: 0%;
         padding: 0%;
     }
+    h1{
+        font-size: 30px;
+    }
     header{
         height: 100px;
         width: 100%;
@@ -365,42 +368,9 @@ footer p span{
         font-size: 0px;
     }
     .logo{
-        width: 100px;
-    }
-    .apresentacao{
-        width: 100%;
-        height: 550px;
-        flex-direction: column;
-        margin: 0%;
-        padding: 0%;
-        align-items: center;
-    }
-    .apresentacao-texto{
-        height: 600px;
-        width: 300px;
-        margin: 0%;
-        padding: 40px;
-    }   
-    #inicio{
-        height: 30px;
-        width: 300px;
-        font-size: 30px;
-    }
-    .apresentacao-texto h2{
-        font-size: 25px;
-    }
-    .apresentacao-texto span{
-        font-size: 13px;
-    }
-    .apresentacao-texto p{
-        font-size: 13px ;
-    }
-              
-    .container{
-        margin-left: 155px !important;
-        width: 80px !important;
-        height: 30px !important;
-        align-items: center !important;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 30px;
     }
     .btn{
         width: 80px !important;
@@ -409,8 +379,10 @@ footer p span{
     header span{
         font-size: 15px !important;
     }
-    .container span{
-        font-size: 15px !important;
+    .container-hea span{
+        font-size: 10px !important;
+        width: 80px !important;
+        height: 30px !important;
     }
     svg{
         width: 80px !important;
@@ -418,11 +390,16 @@ footer p span{
     }
     .container-hea{
         margin-left: 0% !important;
-        
+        width: 80px !important;
+        height: 30px !important;
+    }
+    .container-hea a{
+        width: 80px !important;
+        height: 30px !important;
     }
     .center-hea{
-        width: 80px;
-        height: 30px;
+        width: 80px !important;
+        height: 30px !important;
     }
     .container-hea{
         margin-left: 155px !important;
@@ -434,13 +411,49 @@ footer p span{
         width: 80px !important;
         height: 30px !important;
     }
-    .container-hea span{
-        font-size: 15px !important;
+    .apresentacao{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        align-items: center;
     }
-    .img-apresentacao{
-        width: 200px;
-        height: 200px;
+    .apresentacao-texto{
+        height: 300px;
+        width: 300px;
+        margin: 0%;
+        padding: 60px;
+    }   
+    .apresentacao-texto h2{
+        font-size: 25px;
+    }
+    .apresentacao-texto span{
+        font-size: 13px;
+    }
+    .apresentacao-texto p{
+        font-size: 13px ;
+    }
+    .redesocial{
+        width: 0px;
+        height: 0px;
+    }
+    .redesocial button{
+        border: 0px;
+        width: 0px;
+        height: 0px;
         margin:0%;
+        font-size: 0px;
+        cursor: default;
+    }
+    .redesocial .logo-apre{
+        width: 0%;
+    }
+    .redesocial a{
+        width: 0px;
+    }
+    .contate-me:hover{
+        width: 0px !important;
+        background-color: transparent !important;
+        box-shadow: 0px 0px 0px !important;
     }
     h2{
         font-size: 25px;
@@ -452,17 +465,26 @@ footer p span{
         height: 0px;
     }
     /* SEGUNDA PARTE */
+    #tec{
+        font-size: 20px;
+        margin-left: 110px;
+    }
     .tec-principal{
-        margin-top: 100px ;
+        margin-top: 10px ;
+        height: 200px;
+        text-align: center;
     }
     .img-tec{
         width: 50px;
-       
     }
     .img-tec:hover{
         width: 70px !important;
       }
       /* TERCEIRA PARTE */
+      #proj{
+        font-size: 20px;
+        margin-left: 110px;
+      }
       .projetos-principal{
         width: 100%;
         height: 1100px;
@@ -487,6 +509,7 @@ footer p span{
       }
       #texto-proj{
           font-size: 20px;
+          margin-left: 19%;
       }
       
       .btn-proj{
@@ -502,4 +525,107 @@ footer p span{
             width: 320px !important;
             
         }
+    /* QUARTA PARTE */
+    .dev-linha{
+        height: 10px;
+    }
+    .dev-principal{
+        width: 100%;
+        height: 820px;
+    }
+    .dev-card{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    .minha-imagem{
+        width: 200px;
+        border-radius: 20%;
+        border: 10px solid;
+        border-color: rgb(68, 91, 112);
+    }
+    .nome-dev{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .dev-texto p{
+        text-align: center;
+        padding: 100px;
+        padding-top: 0;
+        font-size: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .redesocial2{
+        display: flex;
+        margin-top: 20px;
+        width: 240px;
+        height: 30px;
+        margin-left: 50px;
+    }
+    .contate-me2{
+        display: flex;
+        height: 70px;
+        border-radius: 50px;
+        margin-left: 30px;
+    }
+    .contate-me2 p{
+        padding: 0px;
+        margin: 0px;
+        width: 0px;
+        font-size: 0px;
+        transition: 4s; 
+        background-color: transparent;
+        font-family: desing;
+    }
+    .redesocial2 img{
+        width: 30px;
+    }
+    .contate-me2:hover{
+        width: 0px !important;
+        height: 0px !important;
+        margin-left: 30px !important;
+        transition: 2s ease !important;
+        background-color: transparent !important;
+        border-radius: 0px !important;
+      }
+      .contate-me2:hover p{
+        width: 0px !important;
+        height: 0% !important;
+        font-size: 0px !important;
+        margin: 0px !important;
+        background-color: transparent !important;
+      }
+    .ideia{
+        text-align: center;
+        margin: 0px;
+    }
+    .ideia p{
+        font-size: 15px;
+        font-family: desing;
+    }
+    .ideia p a{
+        font-size: 25px;
+    }
+    /* FOOTER */
+
+    .logo-footer{
+        width: 100px;
+        margin: 50px;
+        transition: 2s;
+    }
+    .logo-footer:hover{
+        width: 130px !important;
+    }
+    footer p{
+        color: aqua;    
+    }
+    footer p span{
+        color: rgb(68, 91, 112);
+        font-size: 20px;
+    }
+    .texto-footer{
+        margin-bottom: 70px;
+    }
 }
