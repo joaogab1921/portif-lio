@@ -246,7 +246,7 @@ p{
     
 }
 .dev-principal{
-    height: 1000px auto;
+    height: 1000px;
     box-shadow: 5px 5px 40px rgb(68, 91, 112);
     background-color:  rgb(173, 179, 185);
 }
