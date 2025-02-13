@@ -246,7 +246,7 @@ p{
     
 }
 .dev-principal{
-    height: 1000px;
+    height: 820px;
     box-shadow: 5px 5px 40px rgb(68, 91, 112);
     background-color:  rgb(173, 179, 185);
 }
@@ -528,7 +528,7 @@ footer p span{
     }
     .dev-principal{
         width: 100%;
-        height: 820px;
+        height: 1000px;
         align-items: center;
         display: flex;
         flex-direction: column;
