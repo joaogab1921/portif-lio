@@ -73,7 +73,8 @@ body{
 }
 .apresentacao-texto span{
     font-family: pixel;
-    font-size: 15px;
+    font-size: 25px;
+    margin-left: 10px;
     color: aqua;
 }
 #inicio{
@@ -123,6 +124,7 @@ h1{
 }
 p{
     color: aliceblue;
+    font-family: cofee;
 }
 .apresentacao-texto h2{
     color: rgb(68, 91, 112);
